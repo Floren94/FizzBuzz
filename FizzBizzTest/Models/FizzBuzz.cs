@@ -7,9 +7,11 @@ namespace FizzBizzTest.Models
 {
     public class FizzBuzz
     {
+        //size of the list. Count of numbers tested and returned from taken integer.
         const int LISTSIZE = 10;
 
-        public List<string> GetFizzBuzz(int num)
+        //returns a list of string with numbers and fizzbuzzes staring from given integer. 
+        public List<string> FizzBuzzToList(int num)
         {
             List<string> fizzList = new List<string>(LISTSIZE);
 
