@@ -12,8 +12,7 @@ namespace UnitTestProject
             FizzBizzTest.Models.FizzBuzz fizz = new FizzBizzTest.Models.FizzBuzz();
             Random rnd = new Random();
             int n = rnd.Next(1, 100);
-            fizz.GetFizzBuzz(n);
-
+            fizz.FizzBuzzToList(n);
         }
     }
 }
